@@ -1,0 +1,59 @@
+.gal {
+    float: left;
+    position: relative;
+}
+
+.gal img {
+    display: block;
+    height: 235px;
+}
+
+.gal p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #F03;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: "Times new roman", serif;
+    margin-top: -20px;
+    margin-left: -20px;
+    text-align: center;
+    display: none;
+}
+
+.gal:hover p {
+    display: block;
+}
+
+.gal:hover img {
+    opacity: 0.4;
+}
+
+@media all and (max-width:800px) {
+    .gal {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .gal img {
+        width: 85%;
+        margin-left: 15%;
+        height: auto;
+    }
+    
+    .gal p {
+        display: block;
+        margin: 0;
+        top: auto;
+        bottom: 10px;
+        padding: 0.5em;
+        background-color: white;
+        box-shadow: 2px 4px 10px rgba(0,0,0,0.3);
+    }
+    
+    .gal:hover img {
+        opacity: 1;
+    }
+}
