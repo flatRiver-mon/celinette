@@ -7,7 +7,7 @@ celinette 반응형 웹
 1. [Celinette](http://celinette.com/)를 참고 하였으며 반응형으로 리디자인 하였습니다.
 
 ## 릴리즈 정보
-* 웹 버전은 [여기](http://kpk0416.dothome.co.kr/celinette)를 눌러 브라우저에서 이용할 수 있습니다.
+* 웹 버전은 [여기](http://horizonriver.dothome.co.kr/celinette)를 눌러 브라우저에서 이용할 수 있습니다.
 
 ## 개발자
 * 이름 : 김평강
